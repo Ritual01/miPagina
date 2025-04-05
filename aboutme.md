@@ -2,6 +2,7 @@
 layout: page
 title: Sobre mi
 subtitle: Esto me hace genial
+cover-img: /assets/img/fondo2.jpeg
 ---
 
 Me llamo Marcelo Manrique Rojas y me gusta:
