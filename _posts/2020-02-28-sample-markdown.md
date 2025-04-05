@@ -37,7 +37,7 @@ Aquí hay una tabla simple para mostrar cómo un buen diseño UX puede influir:
 - Claridad: Elimina lo innecesario.
 - Retroalimentación: Cada acción debe tener una reacción.
 
-![UX UI](https://uxdesign.cc/_/2021/ux-thumb.jpg)
+![UX UI](https://www.hostingplus.pe/wp-content/uploads/2024/03/UX.jpg)
 
 A veces solo se trata de hacer que una app "se sienta" bien.
 
