@@ -1,100 +1,51 @@
 ---
 layout: post
-title: Sample blog post to learn markdown tips
-subtitle: There's lots to learn!
-gh-repo: daattali/beautiful-jekyll
+title: Cómo el UX puede mejorar la recepción del producto
+subtitle: Diseñar pensando en las personas marca la diferencia
+gh-repo: Ritual01/miPagina
 gh-badge: [star, fork, follow]
-tags: [test]
+tags: [UX, diseño, experiencia-de-usuario]
 comments: true
-mathjax: true
-author: Bill Smith
+mathjax: false
+author: Marcelo Manrique
 ---
 
 {: .box-success}
-This is a demo post to show you how to write blog posts with markdown.  I strongly encourage you to [take 5 minutes to learn how to write in markdown](https://markdowntutorial.com/) - it'll teach you how to transform regular text into bold/italics/tables/etc.<br/>I also encourage you to look at the [code that created this post](https://raw.githubusercontent.com/daattali/beautiful-jekyll/master/_posts/2020-02-28-sample-markdown.md) to learn some more advanced tips about using markdown in Beautiful Jekyll.
+Este es un pequeño blog donde comparto cómo el **Diseño de Experiencia de Usuario (UX)** puede hacer una gran diferencia en cómo los usuarios perciben e interactúan con un producto digital. Ya seas diseñador, desarrollador o simplemente alguien curioso, entender estos principios puede marcar un antes y un después en tu proyecto.
 
-**Here is some bold text**
+**Diseñar con intención significa diseñar con empatía.**
 
-## Here is a secondary heading
+## ¿Por qué el UX importa?
 
-[This is a link to a different site](https://deanattali.com/) and [this is a link to a section inside this page](#local-urls).
+[La experiencia de usuario](https://www.nngroup.com/articles/definition-user-experience/) no solo se trata de que algo se vea bonito. Se trata de **hacer que las personas se sientan cómodas**, que puedan lograr sus objetivos de forma rápida, fácil y sin frustraciones.
 
-Here's a table:
+[Este es un link a mi portafolio UX](#portfolio) y [este otro a un recurso que me encanta](https://uxdesign.cc/).
 
-| Number | Next number | Previous number |
-| :------ |:--- | :--- |
-| Five | Six | Four |
-| Ten | Eleven | Nine |
-| Seven | Eight | Six |
-| Two | Three | One |
+Aquí hay una tabla simple para mostrar cómo un buen diseño UX puede influir:
 
-You can use [MathJax](https://www.mathjax.org/) to write LaTeX expressions. For example:
-When \\(a \ne 0\\), there are two solutions to \\(ax^2 + bx + c = 0\\) and they are $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$
+| Problema común | Solución UX | Resultado |
+| :------------- |:------------ | :-------- |
+| Formularios largos | Dividir en pasos | Menos abandono |
+| Botones confusos | Jerarquía visual clara | Mayor interacción |
+| Texto técnico | Lenguaje simple y humano | Más comprensión |
+| Sin feedback visual | Microinteracciones | Confianza del usuario |
 
-How about a yummy crepe?
+## Algunos principios clave de UX:
 
-![Crepe](https://beautifuljekyll.com/assets/img/crepe.jpg)
+- Empatía: Ponte en los zapatos del usuario.
+- Consistencia: No reinventes la rueda en cada pantalla.
+- Claridad: Elimina lo innecesario.
+- Retroalimentación: Cada acción debe tener una reacción.
 
-It can also be centered!
+![UX UI](https://uxdesign.cc/_/2021/ux-thumb.jpg)
 
-![Crepe](https://beautifuljekyll.com/assets/img/crepe.jpg){: .mx-auto.d-block :}
-
-Here's a code chunk:
-
-~~~
-var foo = function(x) {
-  return(x + 5);
-}
-foo(3)
-~~~
-
-And here is the same code with syntax highlighting:
+A veces solo se trata de hacer que una app "se sienta" bien.
 
 ```javascript
-var foo = function(x) {
-  return(x + 5);
-}
-foo(3)
-```
+// Microejemplo de accesibilidad: cambiar el foco con teclado
+document.addEventListener('keydown', function(e) {
+  if(e.key === 'Tab') {
+    document.body.classList.add('user-is-tabbing');
+  }
+});
 
-And here is the same code yet again but with line numbers:
-
-{% highlight javascript linenos %}
-var foo = function(x) {
-  return(x + 5);
-}
-foo(3)
-{% endhighlight %}
-
-## Boxes
-You can add notification, warning and error boxes like this:
-
-### Notification
-
-{: .box-note}
-**Note:** This is a notification box.
-
-### Warning
-
-{: .box-warning}
-**Warning:** This is a warning box.
-
-### Error
-
-{: .box-error}
-**Error:** This is an error box.
-
-## Local URLs in project sites {#local-urls}
-
-When hosting a *project site* on GitHub Pages (for example, `https://USERNAME.github.io/MyProject`), URLs that begin with `/` and refer to local files may not work correctly due to how the root URL (`/`) is interpreted by GitHub Pages. You can read more about it [in the FAQ](https://beautifuljekyll.com/faq/#links-in-project-page). To demonstrate the issue, the following local image will be broken **if your site is a project site:**
-
-![Crepe](/assets/img/crepe.jpg)
-
-If the above image is broken, then you'll need to follow the instructions [in the FAQ](https://beautifuljekyll.com/faq/#links-in-project-page). Here is proof that it can be fixed:
-
-![Crepe]({{ '/assets/img/crepe.jpg' | relative_url }})
-
-<details markdown="1">
-<summary>Click here!</summary>
-Here you can see an **expandable** section
-</details>
