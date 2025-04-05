@@ -1,16 +1,19 @@
 ---
 layout: page
-title: About me
-subtitle: Why you'd want to go on a date with me
+title: Sobre mi
+subtitle: Esto me hace genial
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+Me llamo Marcelo Manrique Rojas y me gusta:
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+- Aplicar técnicas de UX en mis proyectos.
+- Tomar siestas de 3 horas🦢
 
-What else do you need?
+¿Algo más que deberías saber?
+Bueno tal vez lo que hago en mi tiempo libre, normalmente paso mi tiempo jugando a videojuegos a menos que esté entrenando para mi siguiente campeonato de capoeira.
+Tambien soy un poco flojo, pero eso no me detiene a cumplir con mis responsabilidades (inserte [sticker de perrito con risa malvada](https://pin.it/2uM1cjcNU)).
 
-### My story
 
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](https://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+### Mi historia 🦢
+
+Yo creo que las personas se entienden mejor cuando ven el mundo de la misma forma así que porque mejor en lugar de contarte mi vida escuchas lo que [estoy escuchando](https://www.youtube.com/watch?v=h7MYJghRWt0) en este momento y me cuentas que te parece.
